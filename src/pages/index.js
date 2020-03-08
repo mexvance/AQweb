@@ -21,11 +21,13 @@ const IndexPage = () => (
     <MDBContainer>
       <MDBRow>
         <MDBCol size="auto" md="8">
-          <h1 className="pb-3">Hi people</h1>
+          <h1 className="pb-3">
+            Ancestral Quest, The Best Genealogy Software Around
+          </h1>
           <p className="lead grey-text">
-            Welcome to your new Gatsby site. Kick off your next, great Gatsby
-            project with this default starter. This barebones starter ships with
-            the main Gatsby configuration files you might need.
+            Ancestral Quest is an exciting program for Windows and Mac that
+            makes it possible for anyone to do genealogy! It is easy-to-learn,
+            fun to use and packed with powerful features.
           </p>
           <h4 className="py-3">
             This starter is configured for the following;

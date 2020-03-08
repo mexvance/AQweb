@@ -12,14 +12,14 @@ const Jumbotron = () => {
   return (
     <MDBJumbotron
       fluid
-      style={{ backgroundColor: "#f5f5f5", boxShadow: "none" }}
+      style={{ background: `url("https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg")`, backgroundSize: "cover", boxShadow: "none" }}
     >
       <MDBContainer fluid className="mt-5 text-center">
         <MDBRow>
           <MDBCol>
-            <h1 className="h1">Gatsby + MDBReact</h1>
+            <h1 className="h1">Ancestral Quest</h1>
             <p className="text-primary lead my-4">
-              Kick off your next Gatsby project with this MDBReact starter.
+               Family Tree Software for Windows and Mac
             </p>
 
             <hr className="my-4" style={{ width: "30rem" }} />
@@ -31,7 +31,7 @@ const Jumbotron = () => {
                 color="primary"
                 className="waves-effect"
               >
-                Download Now <MDBIcon fab icon="github" className="ml-2" />
+                Buy Now <MDBIcon fa icon="fas fa-download" className="ml-2" />
               </MDBBtn>
             </div>
           </MDBCol>

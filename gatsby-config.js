@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby + MDBReact`,
-    description: `Kick off your next, great Gatsby project with this default starter.`,
-    author: `@zlidev`,
+    title: `Ancestral Quest`,
+    description: `Amazing software for Genealogy work`,
+    author: `@Incline Software`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
