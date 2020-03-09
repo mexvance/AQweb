@@ -1506,7 +1506,12 @@ button.bg-light:focus {
   src: url("../font/roboto/Roboto-Bold.eot");
   src: url("../font/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: 700; }
-
+  @font-face {
+    font-family: 'Slab Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/ARS.TTF'); /* IE9 Compat Modes */
+  }
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300; }

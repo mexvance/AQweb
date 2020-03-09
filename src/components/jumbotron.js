@@ -1,4 +1,5 @@
 import React from "react"
+import TitleImage from "../images/ancquestTitleLogo2.png"
 import {
   MDBJumbotron,
   MDBBtn,
@@ -17,7 +18,7 @@ const Jumbotron = () => {
       <MDBContainer fluid className="mt-5 text-center">
         <MDBRow>
           <MDBCol>
-            <h1 className="h1">Ancestral Quest</h1>
+            <img style={{"object-fit": "contain"}} src={TitleImage} alt="title"/>
             <p className="text-primary lead my-4">
                Family Tree Software for Windows and Mac
             </p>
