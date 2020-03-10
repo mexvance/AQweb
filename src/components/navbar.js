@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
-import TitleImage from "../images/ancquestTitleBlackLogo.png";
+import TitleImage from "../images/ancquestTitleWhiteLogo.png";
 
 import { Link } from "gatsby"
 import {
@@ -28,7 +28,7 @@ class Navbar extends Component {
         <MDBContainer>
           <MDBNavbarBrand>
             <Link to="/">
-              <div style={{}}><img style={{"object-fit": "contain", "height": "60px"}} src={TitleImage} alt="title"/></div>
+              <div style={{}}><img style={{"object-fit": "contain", "height": "45px"}} src={TitleImage} alt="title"/></div>
             </Link>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />

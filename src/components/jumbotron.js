@@ -1,5 +1,6 @@
 import React from "react"
 import TitleImage from "../images/ancquestTitleLogo2.png"
+import HeaderBackground from "../images/treebackground.jpg"
 import {
   MDBJumbotron,
   MDBBtn,
@@ -13,13 +14,14 @@ const Jumbotron = () => {
   return (
     <MDBJumbotron
       fluid
-      style={{ background: `url("https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg")`, backgroundSize: "cover", boxShadow: "none" }}
+       style={{ backgroundImage: `url(${HeaderBackground})`, backgroundSize: "cover", boxShadow: "none" }}
+      //style={{ backgroundColor: "primary-color", backgroundSize: "cover", boxShadow: "none" }}
     >
       <MDBContainer fluid className="mt-5 text-center">
         <MDBRow>
           <MDBCol>
-            <img style={{"object-fit": "contain"}} src={TitleImage} alt="title"/>
-            <p className="text-primary lead my-4">
+            <img style={{"object-fit": "cover", "max-width": "100%"}} src={TitleImage} alt="title"/>
+            <p className=" lead my-4" style={{fontSize: "1.9em", fontWeight:"light", color: "white"}}>
                Family Tree Software for Windows and Mac
             </p>
 
