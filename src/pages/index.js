@@ -13,6 +13,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Jumbotron from "../components/jumbotron"
+import imgicon from "../images/AQicon.png"
 
 const IndexPage = () => (
   <Layout>
